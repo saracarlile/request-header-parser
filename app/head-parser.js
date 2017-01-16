@@ -5,7 +5,8 @@ module.exports = function (toParse) {
 
   var parser = require('ua-parser-js');
   var ua = parser(toParse.headers['user-agent']);
-  var userAgent = ua.os;
+  var userAgentObject = ua.os;
+  var userAgent = userAgentObject["name"] + " " + userAgentObject["version"];
 
 
 
