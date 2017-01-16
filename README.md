@@ -2,7 +2,7 @@
 
 This is a small HTTP request header parser using Node.JS and Express.
 
-## Code Example
+## More Info
 
 When you visit the project page, you will see information displayed about your HTTP request in JSON format.  
 Something like this: {"ipaddress"68.81.194.210"","language":"en-US","software":"Windows 10"}
